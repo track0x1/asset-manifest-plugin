@@ -1,0 +1,19 @@
+{
+  "name": "asset-manifest-plugin",
+  "version": "0.0.1",
+  "description": "Asset manifest plugin for Webpack 4+.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/track0x1/asset-manifest-plugin.git"
+  },
+  "author": "track0x1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/track0x1/asset-manifest-plugin/issues"
+  },
+  "homepage": "https://github.com/track0x1/asset-manifest-plugin#readme"
+}
