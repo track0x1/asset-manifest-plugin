@@ -26,13 +26,13 @@ class ManifestPlugin {
           }
 
           if (filename.endsWith('css')) {
-            ref.css = filename;
+            ref.css = `${basePath}${filename}`;
           } else if (filename.endsWith('css.map') && this.options.includeMap) {
-            ref.cssMap = filename;
+            ref.cssMap = `${basePath}${filename}`;
           } else if (filename.endsWith('js')) {
-            ref.js = filename;
+            ref.js = `${basePath}${filename}`;
           } else if (filename.endsWith('js.map') && this.options.includeMap) {
-            ref.jsMap = filename;
+            ref.jsMap = `${basePath}${filename}`;
           }
         });
       });
